@@ -31,8 +31,8 @@
         <engine name="cordova" version=">=4.3.0"/>
     </engines>
 
-    <js-module src="www/appsflyer.js" name="appsflyer">
-        <clobbers target="window.plugins.appsFlyer" />
+    <js-module src="www/appsflyer.js" name="AppsFlyer">
+        <clobbers target="AppsFlyer" />
     </js-module>
 
     <js-module src="www/AppsFlyerError.js" name="AppsFlyerError">
